@@ -77,7 +77,7 @@ content:
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/abstract/document/10624599
         quote: >
-          Lee, Kang-Won; **Ko, Dae-Kwan**; Kim, Yong-Jun; Ryu, Jee-Hwan; Lim, Soo-Chul;  (2024)
+          Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Kim, Yong-Jun; Ryu, Jee-Hwan; Lim, Soo-Chul;  (2024)
         description: |
           "IEEE Transactions on Intelligent Transportation Systems, IEEE"
         
@@ -91,7 +91,7 @@ content:
             icon: fas fa-link
             url: https://www.sciencedirect.com/science/article/pii/S095741742201538X
         quote: >
-          **Ko, Dae-Kwan**; Lee, Kang-Won; Lee, Dong Han; Lim, Soo-Chul;  (2023)
+          <strong>Ko, Dae-Kwan</strong>; Lee, Kang-Won; Lee, Dong Han; Lim, Soo-Chul;  (2023)
         description: |
           "Expert Systems with Applications, Vol. 211, pp. 118441, Pergamon"
 
@@ -105,7 +105,7 @@ content:
             icon: fas fa-link
             url: https://link.springer.com/article/10.1007/s12555-022-0358-3
         quote: >
-          Yoon, Kang-Il; **Ko, Dae-Kwan**; Lim, Soo-Chul;  (2023)
+          Yoon, Kang-Il; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul;  (2023)
         description: |
           "International Journal of Control, Automation and Systems, Vol. 21(7), pp. 2387-2397, Institute of Control, Robotics and Systems and The Korean Institute of …"
       
@@ -119,7 +119,7 @@ content:
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/abstract/document/9477054
         quote: >
-          Lee, Kang-Won; **Ko, Dae-Kwan**; Lim, Soo-Chul;  (2021)
+          Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul;  (2021)
         description: |
           "IEEE Robotics and Automation Letters, Vol. 6(4), pp. 6640-6646, IEEE"
       
@@ -133,7 +133,7 @@ content:
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/abstract/document/9084292
         quote: >
-          **Ko, Dae-Kwan**; Lee, Dong-Han; Lim, Soo-Chul;  (2020)
+          <strong>Ko, Dae-Kwan</strong>; Lee, Dong-Han; Lim, Soo-Chul;  (2020)
         description: |
           "IEEE Transactions on Industrial Informatics, Vol. 17(3), pp. 1978-1986, IEEE"
       
@@ -147,7 +147,7 @@ content:
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/abstract/document/8866729
         quote: >
-          Shin, Hochul; Cho, Hyeon; Kim, Dongyi; **Ko, Dae-Kwan**; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
+          Shin, Hochul; Cho, Hyeon; Kim, Dongyi; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
         description: |
           "IEEE Access, Vol. 7, pp. 150237-150246, IEEE"
       
@@ -161,7 +161,7 @@ content:
             icon: fas fa-link
             url: https://www.nature.com/articles/s41598-019-50247-4
         quote: >
-          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; **Ko, Dae-Kwan**; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
+          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; <strong>Ko, Dae-Kwan</strong>; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
         description: |
           "Scientific reports, Vol. 9(1), pp. 14040, Nature Publishing Group UK London"
       
@@ -175,7 +175,7 @@ content:
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/abstract/document/8792246
         quote: >
-          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; **Ko, Dae-Kwan**; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
+          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; <strong>Ko, Dae-Kwan</strong>; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
         description: |
           "2019 IEEE International Conference on Flexible and Printable Sensors and Systems (FLEPS), pp. 1-3, IEEE"
       
@@ -189,7 +189,7 @@ content:
             icon: fas fa-link
             url: https://ieeexplore.ieee.org/abstract/document/8932854
         quote: >
-          Cho, Hyeon; Kim, Hyungho; **Ko, Dae-Kwan**; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
+          Cho, Hyeon; Kim, Hyungho; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
         description: |
           "2019 7th International Conference on Robot Intelligence Technology and Applications (RiTA), pp. 61-66, IEEE"
       
@@ -203,7 +203,7 @@ content:
             icon: fas fa-link
             url: https://www.sciencedirect.com/science/article/pii/S1359836818325411
         quote: >
-          Khan, Asif; **Ko, Dae-Kwan**; Lim, Soo Chul; Kim, Heung Soo;  (2018)
+          Khan, Asif; <strong>Ko, Dae-Kwan</strong>; Lim, Soo Chul; Kim, Heung Soo;  (2018)
         description: |
           "Composites Part B: Engineering, Elsevier"
 
