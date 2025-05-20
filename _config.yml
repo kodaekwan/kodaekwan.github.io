@@ -89,6 +89,7 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+
   - title: Experience
     layout: list
     content:
@@ -103,7 +104,7 @@ content:
           - Led research and application development in 3D vision and AI, covering full pipeline from algorithm design to system integration.
           - Applied object detection technologies for industrial deployments. [Delivered in-house solutions]
           - Developed thermal video super-resolution algorithms. [Passed technical validation: KES-SA-23T0000]
-          - Built mobile vehicle license plate recognition and verification systems. [Delivered to Korea Western Power Co.]
+          - Built mobile vehicle license plate recognition and verification systems. [Delivered to Korea Western Power Station.]
           - Developed 3D vision-based vehicle exterior quality inspection solutions integrating AI. [Patent pending; delivered to Daifuku; contract and registration with Hyundai Motor Company]
           - Designed custom vision hardware and embedded systems, from prototyping to deployment.
           - Conducted technical reviews for external robot vision and AI systems (confidential).
@@ -129,13 +130,23 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Dongguk University
+        sub_title: M.S. in Mechanical Engineering (Vibration Control and Automation)
+        caption: March 2019 – February 2021
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Graduate School of Mechanical, Robotics, and Automation Engineering.
+        description: |
+          Focused on vibration control, automation, and advanced mechatronics. Completed research-based thesis under Prof. Sucheol Lim.
+
+      - layout: top-right
+        title: Dongguk University
+        sub_title: B.S. in Mechanical Engineering
+        caption: March 2012 – February 2019
+        quote: >
+          School of Mechanical Engineering, Dongguk University.
+        description: |
+          Completed undergraduate coursework and projects in mechanical engineering fundamentals, including robotics and automation.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
