@@ -12,7 +12,7 @@ email: kodaekwan@dongguk.edu
 # email_title: Email (Email title override)
 phone: (+82)10-xxxx-xxxx
 # phone_title: Phone (Phone title override)
-website: http://irobot.dgu.edu
+LABsite: http://irobot.dgu.edu
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -80,6 +80,9 @@ content:
           Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Kim, Yong-Jun; Ryu, Jee-Hwan; Lim, Soo-Chul;  (2024)
         description: |
           "IEEE Transactions on Intelligent Transportation Systems, IEEE"
+          <br>
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JyXXZQ-SfLU" frameborder="0" allowfullscreen></iframe>
         
       - layout: left
         border: weak
@@ -305,7 +308,7 @@ content:
         quote: >
           Department of Mechanical Engineering, Dongguk University.
         description: |
-          Ph.D. candidate under the supervision of Prof. Sucheol Lim.
+          Ph.D. candidate under the supervision of Prof. SooChul Lim.
           Research focus: robotics, AI, and physical AI about human-robot/object interaction forces.
 
       - layout: top-right
@@ -315,7 +318,7 @@ content:
         quote: >
           Graduate School of Mechanical, Robotics, and Automation Engineering.
         description: |
-          Focused on vibration control, automation, and advanced mechatronics. Completed research-based thesis under Prof. Sucheol Lim.
+          Focused on vibration control, automation, and advanced mechatronics. Completed research-based thesis under Prof. SooChul Lim.
 
       - layout: top-right
         title: Dongguk University
