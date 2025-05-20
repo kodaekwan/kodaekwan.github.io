@@ -61,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
   My ultimate goal is to develop robust robot behaviors and planning by integrating haptics, and to apply 
   these advances to humanoid robotic systems that can interact in a human-like manner.
 
-  - Images ![alt text](/images/myhistory.png "Trees")
+  - History ![alt text](/images/myhistory.png "Trees")
 
 content:
   - title: Projects # Title for the section
