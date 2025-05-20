@@ -64,6 +64,140 @@ about_content: | # this will include new lines to allow paragraphs
   - History ![alt text](/images/myhistory.png "Trees")
 
 content:
+- title: Publications
+  layout: list
+  content:
+    - layout: left
+      border: weak
+      title: "Latency-free driving scene prediction for on-road teledriving with future-image-generation"
+      link: 
+      link_text: IEEE Transactions on Intelligent Transportation Systems
+      additional_links:
+        - title: IEEE Transactions on Intelligent Transportation Systems
+          icon: fas fa-link
+          url: 
+      quote: >
+        Lee, Kang-Won; **Ko, Dae-Kwan**; Kim, Yong-Jun; Ryu, Jee-Hwan; Lim, Soo-Chul;  (2024)
+      description: |
+        IEEE Transactions on Intelligent Transportation Systems, IEEE
+        - layout: left
+      border: weak
+      title: "Vision-based interaction force estimation for robot grip motion without tactile/force sensor"
+      link: 
+      link_text: Expert Systems with Applications
+      additional_links:
+        - title: Expert Systems with Applications
+          icon: fas fa-link
+          url: 
+      quote: >
+        **Ko, Dae-Kwan**; Lee, Kang-Won; Lee, Dong Han; Lim, Soo-Chul;  (2023)
+      description: |
+        Expert Systems with Applications, Vol. 211, pp. 118441, Pergamon
+        - layout: left
+      border: weak
+      title: "Real-time video prediction using gans with guidance information for time-delayed robot teleoperation"
+      link: 
+      link_text: International Journal of Control, Automation and Systems
+      additional_links:
+        - title: International Journal of Control, Automation and Systems
+          icon: fas fa-link
+          url: 
+      quote: >
+        Yoon, Kang-Il; **Ko, Dae-Kwan**; Lim, Soo-Chul;  (2023)
+      description: |
+        International Journal of Control, Automation and Systems, Vol. 21(7), pp. 2387-2397, Institute of Control, Robotics and Systems and The Korean Institute of …
+        - layout: left
+      border: weak
+      title: "Toward vision-based high sampling interaction force estimation with master position and orientation for teleoperation"
+      link: 
+      link_text: IEEE Robotics and Automation Letters
+      additional_links:
+        - title: IEEE Robotics and Automation Letters
+          icon: fas fa-link
+          url: 
+      quote: >
+        Lee, Kang-Won; **Ko, Dae-Kwan**; Lim, Soo-Chul;  (2021)
+      description: |
+        IEEE Robotics and Automation Letters, Vol. 6(4), pp. 6640-6646, IEEE
+        - layout: left
+      border: weak
+      title: "Continuous image generation from low-update-rate images and physical sensors through a conditional GAN for robot teleoperation"
+      link: 
+      link_text: IEEE Transactions on Industrial Informatics
+      additional_links:
+        - title: IEEE Transactions on Industrial Informatics
+          icon: fas fa-link
+          url: 
+      quote: >
+        **Ko, Dae-Kwan**; Lee, Dong-Han; Lim, Soo-Chul;  (2020)
+      description: |
+        IEEE Transactions on Industrial Informatics, Vol. 17(3), pp. 1978-1986, IEEE
+        - layout: left
+      border: weak
+      title: "Sequential image-based attention network for inferring force estimation without haptic sensor"
+      link: 
+      link_text: IEEE Access
+      additional_links:
+        - title: IEEE Access
+          icon: fas fa-link
+          url: 
+      quote: >
+        Shin, Hochul; Cho, Hyeon; Kim, Dongyi; **Ko, Dae-Kwan**; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
+      description: |
+        IEEE Access, Vol. 7, pp. 150237-150246, IEEE
+        - layout: left
+      border: weak
+      title: "Transparent and flexible mayan-pyramid-based pressure sensor using facile-transferred indium tin oxide for bimodal sensor applications"
+      link: 
+      link_text: Scientific reports
+      additional_links:
+        - title: Scientific reports
+          icon: fas fa-link
+          url: 
+      quote: >
+        Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; **Ko, Dae-Kwan**; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
+      description: |
+        Scientific reports, Vol. 9(1), pp. 14040, Nature Publishing Group UK London
+        - layout: left
+      border: weak
+      title: "Flexible Multi-Modal Sensor for Electronic Skin"
+      link: 
+      link_text: 2019 IEEE International Conference on Flexible and Printable Sensors and Systems (FLEPS)
+      additional_links:
+        - title: 2019 IEEE International Conference on Flexible and Printable Sensors and Systems (FLEPS)
+          icon: fas fa-link
+          url: 
+      quote: >
+        Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; **Ko, Dae-Kwan**; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
+      description: |
+        2019 IEEE International Conference on Flexible and Printable Sensors and Systems (FLEPS), pp. 1-3, IEEE
+        - layout: left
+      border: weak
+      title: "Which LSTM type is better for interaction force estimation?"
+      link: 
+      link_text: 2019 7th International Conference on Robot Intelligence Technology and Applications (RiTA)
+      additional_links:
+        - title: 2019 7th International Conference on Robot Intelligence Technology and Applications (RiTA)
+          icon: fas fa-link
+          url: 
+      quote: >
+        Cho, Hyeon; Kim, Hyungho; **Ko, Dae-Kwan**; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
+      description: |
+        2019 7th International Conference on Robot Intelligence Technology and Applications (RiTA), pp. 61-66, IEEE
+        - layout: left
+      border: weak
+      title: "Structural vibration-based classification and prediction of delamination in smart composite laminates using deep learning neural network"
+      link: 
+      link_text: Composites Part B: Engineering
+      additional_links:
+        - title: Composites Part B: Engineering
+          icon: fas fa-link
+          url: 
+      quote: >
+        Khan, Asif; **Ko, Dae-Kwan**; Lim, Soo Chul; Kim, Heung Soo;  (2018)
+      description: |
+        Composites Part B: Engineering, Elsevier
+    
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -161,6 +295,16 @@ content:
   - title: Education
     layout: list
     content:
+      - layout: top-right
+        title: Dongguk University
+        sub_title: Ph.D. in Mechanical Engineering (on-going)
+        caption: March 2025 – Present
+        quote: >
+          Department of Mechanical Engineering, Dongguk University.
+        description: |
+          Ph.D. candidate under the supervision of Prof. Sucheol Lim.
+          Research focus: robotics, AI, and physical AI about human-robot/object interaction forces.
+
       - layout: top-right
         title: Dongguk University
         sub_title: M.S. in Mechanical Engineering (Vibration Control and Automation)
