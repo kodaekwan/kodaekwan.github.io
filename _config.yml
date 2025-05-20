@@ -226,34 +226,27 @@ content:
         title: SNUAILAB Co., Ltd.
         sub_title: Senior Research Engineer (Professional Research Personnel – Alternative Military Service)
         caption: December 2022 – February 2025 | Seoul, South Korea
-        # link: https://www.snuaillab.com/
         quote: >
           AI and 3D vision technology company specializing in advanced vision solutions for industrial and smart city applications.
         description: |
-          - Led research and application development in 3D vision and AI, covering full pipeline from algorithm design to system integration.
-          - Applied object detection technologies for industrial deployments. [Delivered in-house solutions]
-          - Developed thermal video super-resolution algorithms. [Passed technical validation: KES-SA-23T0000]
-          - Built mobile vehicle license plate recognition and verification systems. [Delivered to Korea Western Power Station.]
-          - Developed 3D vision-based vehicle exterior quality inspection solutions integrating AI. [Patent pending; delivered to Daifuku; contract and registration with Hyundai Motor Company]
-          - Designed custom vision hardware and embedded systems, from prototyping to deployment.
-          - Conducted technical reviews for external robot vision and AI systems (confidential).
-          - Successfully delivered all PoC (Proof of Concept) projects and secured contracts through direct management of system architecture, development, and integration.
+          - Led 3D vision and AI system development from algorithm design to integration.
+          - Delivered industrial object detection and thermal video super-resolution solutions.
+          - Developed mobile vehicle license plate recognition and quality inspection systems.
+          - Managed PoC projects and secured contracts with major clients (e.g., Daifuku, HMC).
           - Main technologies: PyTorch, Python, Open3D, OpenCV.
-      
+
       - layout: right
         title: MEERECOMPANY Co., Ltd.
         sub_title: Senior Research Engineer (Professional Research Personnel – Alternative Military Service)
         caption: February 2021 – December 2022 | Songpa-gu, Seoul, South Korea
-        # link: https://www.meerecompany.com/
         quote: >
           Leading Korean company specializing in surgical robotics and precision automation.
         description: |
-          - Led R&D of surgical robot control software with emphasis on safety, precision, and real-time operation.
-          - Analyzed and applied robot dynamic models to enhance robot control and motion planning.
-          - Developed real-time software modules in C/C++ for robot actuation and sensor feedback processing.
-          - Built and maintained RTOS environments tailored for robotics applications.
-          - Utilized MATLAB Simulink and Simscape for modeling, simulation, and control algorithm validation.
-          - Designed and implemented EtherCAT-based communication frameworks for multi-axis robot systems.
+          - Led surgical robot control software R&D for safety and reliability.
+          - Analyzed robot dynamic models for advanced control and motion planning.
+          - Developed real-time modules in C/C++ for actuation and feedback.
+          - Built RTOS environments and implemented EtherCAT frameworks.
+          - Utilized MATLAB Simulink/Simscape for modeling and control validation.
   - title: Patents
     layout: list
     content:
