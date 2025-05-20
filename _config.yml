@@ -26,7 +26,7 @@ dribbble_username: jekyll
 facebook_username: jekyll
 flickr_username: jekyll
 instagram_username: jekyll
-linkedin_username: jekyll
+linkedin_username: dae-kwan-ko-696b26215
 xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
@@ -53,7 +53,14 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/Kodg.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am currently a Ph.D. candidate in the Department of Mechanical Engineering at Dongguk University, 
+  under the supervision of Professor [Sucheol Lim](http://irobot.dgu.edu/wordpress/member/professor/). 
+  I received my M.S. degree in Science from the same university.
+
+  My research interests include robotics, AI learning, and interaction forces between robots, objects, and humans.
+  My ultimate goal is to develop robust robot behaviors and planning by integrating haptics, and to apply 
+  these advances to humanoid robotic systems that can interact in a human-like manner.
+
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
@@ -86,14 +93,38 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: SNUAILAB Co., Ltd.
+        sub_title: Senior Research Engineer (Professional Research Personnel – Alternative Military Service)
+        caption: December 2022 – February 2025 | Seoul, South Korea
+        # link: https://www.snuaillab.com/
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          AI and 3D vision technology company specializing in advanced vision solutions for industrial and smart city applications.
+        description: |
+          - Led research and application development in 3D vision and AI, covering full pipeline from algorithm design to system integration.
+          - Applied object detection technologies for industrial deployments. [Delivered in-house solutions]
+          - Developed thermal video super-resolution algorithms. [Passed technical validation: KES-SA-23T0000]
+          - Built mobile vehicle license plate recognition and verification systems. [Delivered to Korea Western Power Co.]
+          - Developed 3D vision-based vehicle exterior quality inspection solutions integrating AI. [Patent pending; delivered to Daifuku; contract and registration with Hyundai Motor Company]
+          - Designed custom vision hardware and embedded systems, from prototyping to deployment.
+          - Conducted technical reviews for external robot vision and AI systems (confidential).
+          - Successfully delivered all PoC (Proof of Concept) projects and secured contracts through direct management of system architecture, development, and integration.
+          - Main technologies: PyTorch, Python, Open3D, OpenCV.
+
+      - layout: right
+        title: MEERECOMPANY Co., Ltd.
+        sub_title: Senior Research Engineer (Professional Research Personnel – Alternative Military Service)
+        caption: February 2021 – December 2022 | Songpa-gu, Seoul, South Korea
+        # link: https://www.meerecompany.com/
+        quote: >
+          Leading Korean company specializing in surgical robotics and precision automation.
+        description: |
+          - Led R&D of surgical robot control software with emphasis on safety, precision, and real-time operation.
+          - Analyzed and applied robot dynamic models to enhance robot control and motion planning.
+          - Developed real-time software modules in C/C++ for robot actuation and sensor feedback processing.
+          - Built and maintained RTOS environments tailored for robotics applications.
+          - Utilized MATLAB Simulink and Simscape for modeling, simulation, and control algorithm validation.
+          - Designed and implemented EtherCAT-based communication frameworks for multi-axis robot systems.
+
   - title: Education
     layout: list
     content:
