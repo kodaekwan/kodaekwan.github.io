@@ -6,11 +6,11 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: kodaekwan
+name: Ko Daekwan
 title: Ph.D. Student at Dongguk University
 email: kodaekwan@dongguk.edu
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: -- ---- ----
 # phone_title: Phone (Phone title override)
 website: http://irobot.dgu.edu
 # website_title: Web (Website title override)
@@ -20,7 +20,7 @@ darkmode: false
 
 # Social links
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  kodaekwan
 stackoverflow_username: "00000001"
 dribbble_username: jekyll
 facebook_username: jekyll
@@ -30,8 +30,9 @@ linkedin_username: jekyll
 xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+orcid_username: 0000-0002-0729-2793
+googlescholar_username: vceFZwQAAAAJ
+
 
 # Additional icon links
 additional_links:
@@ -50,7 +51,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/Kodg.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
