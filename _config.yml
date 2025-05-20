@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: kodaekwan
-title: Your job title
-email: Your email (optional)
+title: Ph.D. Student at Dongguk University
+email: kodaekwan@dongguk.edu
 # email_title: Email (Email title override)
 phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: http://irobot.dgu.edu
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
