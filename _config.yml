@@ -197,17 +197,17 @@ content:
         border: weak
         title: "Structural vibration-based classification and prediction of delamination in smart composite laminates using deep learning neural network"
         link: https://www.sciencedirect.com/science/article/pii/S1359836818325411
-        link_text: Composites Part B: Engineering
+        link_text: "Composites Part B: Engineering"
         additional_links:
-          - title: Composites Part B: Engineering
+          - title: "Composites Part B: Engineering"
             icon: fas fa-link
             url: https://www.sciencedirect.com/science/article/pii/S1359836818325411
         quote: >
           Khan, Asif; **Ko, Dae-Kwan**; Lim, Soo Chul; Kim, Heung Soo;  (2018)
         description: |
-          Composites Part B: Engineering, Elsevier
+          "Composites Part B: Engineering, Elsevier"
 
-          
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
