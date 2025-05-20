@@ -97,6 +97,9 @@ content:
           <strong>Ko, Dae-Kwan</strong>; Lee, Kang-Won; Lee, Dong Han; Lim, Soo-Chul;  (2023)
         description: |
           "Expert Systems with Applications, Vol. 211, pp. 118441, Pergamon"
+          <br>
+
+          <img src="/images/ESwA_force_estimation.jpg" width="560" height="315" alt="Demo Image">
 
       - layout: left
         border: weak
@@ -111,7 +114,10 @@ content:
           Yoon, Kang-Il; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul;  (2023)
         description: |
           "International Journal of Control, Automation and Systems, Vol. 21(7), pp. 2387-2397, Institute of Control, Robotics and Systems and The Korean Institute of …"
-      
+          <br>
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/UgxSEOrBKFo" frameborder="0" allowfullscreen></iframe>
+          
       - layout: left
         border: weak
         title: "Toward vision-based high sampling interaction force estimation with master position and orientation for teleoperation"
