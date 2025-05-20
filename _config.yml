@@ -110,7 +110,7 @@ content:
           - Conducted technical reviews for external robot vision and AI systems (confidential).
           - Successfully delivered all PoC (Proof of Concept) projects and secured contracts through direct management of system architecture, development, and integration.
           - Main technologies: PyTorch, Python, Open3D, OpenCV.
-
+      
       - layout: right
         title: MEERECOMPANY Co., Ltd.
         sub_title: Senior Research Engineer (Professional Research Personnel – Alternative Military Service)
@@ -125,7 +125,44 @@ content:
           - Built and maintained RTOS environments tailored for robotics applications.
           - Utilized MATLAB Simulink and Simscape for modeling, simulation, and control algorithm validation.
           - Designed and implemented EtherCAT-based communication frameworks for multi-axis robot systems.
+  - title: Patents
+    layout: list
+    content:
+      - layout: top-right
+        title: KR-10-2648104-0000
+        sub_title: Method, Device, and Computer Program for Measuring Vehicle Step Difference
+        caption: Ko, Dae Kwan; Koo, Ja Chun; Yoon, Jin
+        description: |
+          Registered Korean Patent
 
+      - layout: top-right
+        title: KR-10-2260882-0000
+        sub_title: Sequential Image-based Interaction Force Measurement Method and Device
+        caption: Hwang, Won Joon; Shin, Ho Cheol; Kim, Dong Yi; Lim, Soo Chul; Ko, Dae Kwan
+        description: |
+          Registered Korean Patent
+
+      - layout: top-right
+        title: KR-10-2313160-0000
+        sub_title: High-Resolution Video Generation Method and Device Using Motion Information
+        caption: Lim, Soo Chul; Ko, Dae Kwan; Lee, Dong Han
+        description: |
+          Registered Korean Patent
+
+      - layout: top-right
+        title: KR-10-2094360-0000
+        sub_title: Image-based Force Prediction System and Method
+        caption: Lim, Soo Chul; Hwang, Won Joon; Shin, Ho Cheol; Lee, Dong Han; Ko, Dae Kwan
+        description: |
+          Registered Korean Patent
+
+      - layout: top-right
+        title: KR-10-2018-0138258 (Application)
+        sub_title: Two-point Identification Inspection Device and Method
+        caption: Lim, Soo Chul; Ko, Dae Kwan
+        description: |
+          Korean Patent Application
+          
   - title: Education
     layout: list
     content:
