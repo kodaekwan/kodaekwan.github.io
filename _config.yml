@@ -227,26 +227,47 @@ content:
           "Composites Part B: Engineering, Elsevier"
 
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: Vision-Language-Action Robot Demo with PI-Zero and Kinova Gen3 Lite
+        link: https://youtu.be/C7Jq_qHoXmk
+        link_text: Watch Demo on YouTube
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: π0 Project Info (Physical Intelligence)
+            icon: fas fa-link
+            url: https://www.physicalintelligence.company/blog/pi0
+          - title: Lab Homepage
+            icon: fas fa-home
+            url: http://irobot.dgu.edu
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          A real-world demonstration of VLA robot control using PI-Zero and Kinova Gen3 Lite.
+        description: |
+          <strong>AI Info</strong><br>
+          • VLA Model: <a href="https://www.physicalintelligence.company/blog/pi0">π0</a><br>
+          • Prompt: "clean the table"<br>
+          • Training Dataset: 12 episodes (each 50s)<br>
+          • Training Time: 6 hours<br>
+
+          <br>
+
+          <strong>System Info</strong><br>
+          • Robot: KINOVA Gen3 Lite<br>
+          • Camera: Intel RealSense D435f & L515 (color only)<br>
+          • CPU: AMD RYZEN 5900X<br>
+          • GPU: NVIDIA RTX 4090 24GB<br>
+          • Control Rate: 10 Hz<br>
+
+          <br>
+
+          <strong>System Integration:</strong> DaeKwan-Ko (Ph.D. student)
+
+          <br><br>
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/C7Jq_qHoXmk" frameborder="0" allowfullscreen></iframe>
+
 
   - title: Experience
     layout: list
