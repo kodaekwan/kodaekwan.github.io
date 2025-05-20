@@ -117,7 +117,7 @@ content:
           <br>
           
           <iframe width="560" height="315" src="https://www.youtube.com/embed/UgxSEOrBKFo" frameborder="0" allowfullscreen></iframe>
-          
+
       - layout: left
         border: weak
         title: "Toward vision-based high sampling interaction force estimation with master position and orientation for teleoperation"
@@ -131,6 +131,9 @@ content:
           Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul;  (2021)
         description: |
           "IEEE Robotics and Automation Letters, Vol. 6(4), pp. 6640-6646, IEEE"
+          <br>
+
+          <img src="https://lee-kangwon.github.io/images/iros.avif" width="560" height="315" alt="Demo Image">
       
       - layout: left
         border: weak
