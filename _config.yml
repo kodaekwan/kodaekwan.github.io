@@ -286,6 +286,8 @@ content:
           - Main technologies: PyTorch, Python, Open3D, OpenCV.
           <br>
           <img src="/images/company3.png" width="720" alt="SNUAILAB work">
+          <br>
+          <hr>
 
       - layout: right
         title: MEERECOMPANY Co., Ltd.
@@ -304,6 +306,8 @@ content:
           <p style="font-size: 0.85em; color: gray;"><em>
             Publicly available image for illustrative purposes only. Actual system visuals are restricted due to confidentiality.
           </em></p>
+          <br>
+          <hr>
 
       - layout: right
         title: "HEALINGSOCIETY Inc. (Brand: HEALSO)"
@@ -319,6 +323,9 @@ content:
           
           <br>
           <img src="/images/company.png" width="720" alt="HEALINGSOCIETY business overview image">
+          <br>
+          <hr>
+
   - title: Patents
     layout: list
     content:
