@@ -279,8 +279,8 @@ content:
         quote: >
           AI and 3D vision technology company specializing in advanced vision solutions for industrial and smart city applications.
         description: |
-          - Led 3D vision and AI system development from algorithm design to integration.
-          - Delivered industrial object detection and thermal video super-resolution solutions.
+          - Led 3D vision and AI system core modules and coordinated with cross-functional teams.
+          - Owned industrial object detection and thermal video super-resolution solutions implementation while collaborating with UI/QA/backend engineers.
           - Developed mobile vehicle license plate recognition and quality inspection systems.
           - Managed PoC projects and secured contracts with major clients (e.g., Daifuku, HMC).
           - Main technologies: PyTorch, Python, Open3D, OpenCV.
@@ -300,7 +300,7 @@ content:
           - Contributed to real-time control architecture, motion planning, and dynamic model analysis for robot manipulators.
           - Involved in RTOS-level implementation and hardware communication via EtherCAT.
           - Conducted modeling and validation using MATLAB Simulink and Simscape frameworks.
-          - Certain technical details are classified under national core technology regulations and cannot be disclosed publicly.
+          - Worked under strict confidentiality as part of a nationally regulated core technology project.
           <br>
           <img src="/images/company2.png" width="720" alt="MEERECOMPANY surgical robot">
           <p style="font-size: 0.85em; color: gray;"><em>
@@ -319,7 +319,8 @@ content:
           - Co-founded HEALINGSOCIETY and led all technical initiatives as CTO.
           - Developed ultrasonic-based body fat measurement devices.
           - Designed and integrated smartphone accessories with mobile applications.
-          - Oversaw product development, app integration, and direct-to-consumer sales pipeline.
+          - Built a full-stack pipeline from product design to market launch as a startup CTO.
+          - Gained hands-on experience in hardware/software integration, user feedback loops, and commercial product iteration
           
           <br>
           <img src="/images/company.png" width="720" alt="HEALINGSOCIETY business overview image">
