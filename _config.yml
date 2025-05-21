@@ -280,7 +280,7 @@ content:
           AI and 3D vision technology company specializing in advanced vision solutions for industrial and smart city applications.
         description: |
           - Led 3D vision and AI system core modules and coordinated with cross-functional teams.
-          - Owned industrial object detection and thermal video super-resolution solutions implementation while collaborating with UI/QA/backend engineers.
+          - Owned and implemented industrial object detection and thermal video super-resolution solutions while collaborating with UI, QA, and backend engineers.
           - Developed mobile vehicle license plate recognition and quality inspection systems.
           - Managed PoC projects and secured contracts with major clients (e.g., Daifuku, HMC).
           - Main technologies: PyTorch, Python, Open3D, OpenCV.
