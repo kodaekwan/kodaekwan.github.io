@@ -297,6 +297,21 @@ content:
           - Developed real-time modules in C/C++ for actuation and feedback.
           - Built RTOS environments and implemented EtherCAT frameworks.
           - Utilized MATLAB Simulink/Simscape for modeling and control validation.
+
+      - layout: right
+        title: HEALINGSOCIETY Inc. (Brand: HEALSO)
+        sub_title: CTO (Co-founder)
+        caption: February 2013 – February 2016 | South Korea
+        quote: >
+          Healthcare startup developing ultrasonic body fat measurement devices and mobile-connected accessories.
+        description: |
+          - Co-founded HEALINGSOCIETY and led all technical initiatives as CTO.
+          - Developed ultrasonic-based body fat measurement devices.
+          - Designed and integrated smartphone accessories with mobile applications.
+          - Oversaw product development, app integration, and direct-to-consumer sales pipeline.
+          
+          <br>
+          <img src="/images/company.png" width="560" alt="HEALINGSOCIETY business overview image">
   - title: Patents
     layout: list
     content:
