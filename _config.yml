@@ -285,7 +285,7 @@ content:
           - Managed PoC projects and secured contracts with major clients (e.g., Daifuku, HMC).
           - Main technologies: PyTorch, Python, Open3D, OpenCV.
           <br>
-          <img src="/images/company3.png" width="560" alt="SNUAILAB work">
+          <img src="/images/company3.png" width="720" alt="SNUAILAB work">
 
       - layout: right
         title: MEERECOMPANY Co., Ltd.
@@ -300,10 +300,10 @@ content:
           - Conducted modeling and validation using MATLAB Simulink and Simscape frameworks.
           - Certain technical details are classified under national core technology regulations and cannot be disclosed publicly.
           <br>
-          <img src="/images/company2.png" width="560" alt="MEERECOMPANY surgical robot">
-          <em>
+          <img src="/images/company2.png" width="720" alt="MEERECOMPANY surgical robot">
+          <p style="font-size: 0.85em; color: gray;"><em>
             Publicly available image for illustrative purposes only. Actual system visuals are restricted due to confidentiality.
-          </em>
+          </em></p>
 
       - layout: right
         title: "HEALINGSOCIETY Inc. (Brand: HEALSO)"
@@ -318,7 +318,7 @@ content:
           - Oversaw product development, app integration, and direct-to-consumer sales pipeline.
           
           <br>
-          <img src="/images/company.png" width="560" alt="HEALINGSOCIETY business overview image">
+          <img src="/images/company.png" width="720" alt="HEALINGSOCIETY business overview image">
   - title: Patents
     layout: list
     content:
