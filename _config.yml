@@ -284,19 +284,27 @@ content:
           - Developed mobile vehicle license plate recognition and quality inspection systems.
           - Managed PoC projects and secured contracts with major clients (e.g., Daifuku, HMC).
           - Main technologies: PyTorch, Python, Open3D, OpenCV.
+          <br>
+          <img src="/images/company3.png" width="560" alt="SNUAILAB work">
 
       - layout: right
         title: MEERECOMPANY Co., Ltd.
         sub_title: Senior Researcher (Professional Research Personnel – Alternative Military Service)
         caption: February 2021 – December 2022 | Songpa-gu, Seoul, South Korea
         quote: >
-          Leading Korean company specializing in surgical robotics and precision automation.
+          A leading Korean company specializing in surgical robotics and high-precision automation.
         description: |
-          - Led surgical robot control software R&D for safety and reliability.
-          - Analyzed robot dynamic models for advanced control and motion planning.
-          - Developed real-time modules in C/C++ for actuation and feedback.
-          - Built RTOS environments and implemented EtherCAT frameworks.
-          - Utilized MATLAB Simulink/Simscape for modeling and control validation.
+          - Participated in the development of next-generation surgical robot systems with a focus on software reliability and safety.
+          - Contributed to real-time control architecture, motion planning, and dynamic model analysis for robot manipulators.
+          - Involved in RTOS-level implementation and hardware communication via EtherCAT.
+          - Conducted modeling and validation using MATLAB Simulink and Simscape frameworks.
+          - Certain technical details are classified under national core technology regulations and cannot be disclosed publicly.
+          <br>
+          <img src="/images/company2.png" width="560" alt="MEERECOMPANY surgical robot">
+          <em>
+            Publicly available image for illustrative purposes only. Actual system visuals are restricted due to confidentiality.
+          </em>
+
       - layout: right
         title: "HEALINGSOCIETY Inc. (Brand: HEALSO)"
         sub_title: CTO (Co-founder)
