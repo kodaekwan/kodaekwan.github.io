@@ -10,7 +10,7 @@ name: Ko Daekwan
 title: Ph.D. Student at Dongguk University
 email: kodaekwan@dongguk.edu
 # email_title: Email (Email title override)
-phone: (+82)10-xxxx-xxxx
+#phone: (+82)10-xxxx-xxxx
 # phone_title: Phone (Phone title override)
 labsite: http://irobot.dgu.edu
 # website_title: Web (Website title override)
@@ -19,17 +19,17 @@ labsite: http://irobot.dgu.edu
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  kodaekwan
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
 linkedin_username: dae-kwan-ko-696b26215
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
 orcid_username: 0000-0002-0729-2793
 googlescholar_username: vceFZwQAAAAJ
 
@@ -394,12 +394,12 @@ content:
         description: |
           Completed undergraduate coursework and projects in mechanical engineering fundamentals, including robotics and automation.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
