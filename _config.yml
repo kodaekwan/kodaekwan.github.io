@@ -1,431 +1,435 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+# =============================================================================
+# Site Settings
+# =============================================================================
+repository: kodaekwan/kodaekwan.github.io
+# favicon: images/favicon.ico   # (optional) path to favicon
 
-# Content configuration version
+# Content schema version used by sproogen/modern-resume-theme
 version: 2
 
-# Personal info
-name: Ko Daekwan
+
+# =============================================================================
+# Personal Info
+# =============================================================================
+name:  Ko Daekwan
 title: Ph.D. Student at Dongguk University
 email: kodaekwan@dongguk.edu
-# email_title: Email (Email title override)
-#phone: (+82)10-xxxx-xxxx
-# phone_title: Phone (Phone title override)
-labsite: http://irobot.dgu.edu
-# website_title: Web (Website title override)
+# email_title: Email          # override the "Email" label
+# phone: (+82)10-xxxx-xxxx
+# phone_title: Phone
 
-# Dark Mode (true/false/never)
+# Lab / personal website (rendered in the header by the theme)
+website:       irobot.dgu.edu
+website_title: Lab
+
+# Dark mode: true | false | never
 darkmode: false
 
-# Social links
-#twitter_username: jekyllrb
-github_username:  kodaekwan
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
-linkedin_username: dae-kwan-ko-696b26215
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-orcid_username: 0000-0002-0729-2793
+
+# =============================================================================
+# Social Links
+# =============================================================================
+github_username:        kodaekwan
+linkedin_username:      dae-kwan-ko-696b26215
+orcid_username:         0000-0002-0729-2793
 googlescholar_username: vceFZwQAAAAJ
 
-
-# Additional icon links
+# Additional icon links (Font Awesome free icons)
+# https://fontawesome.com/icons?d=gallery&s=brands&m=free
 additional_links:
   - title: Medium Blog
     icon: fab fa-medium
-    url: https://medium.com/@daekwanko123
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+    url:  https://medium.com/@daekwanko123
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
+# =============================================================================
 # About Section
-# about_title: About Me (Use this to override about section title)
+# =============================================================================
+# about_title: About Me        # override default section title
 about_profile_image: images/Kodg.jpg
-about_content: | # this will include new lines to allow paragraphs
-  I am currently a Ph.D. candidate in the Department of Mechanical Engineering at Dongguk University, 
-  under the supervision of Professor [Soo-chul Lim](http://irobot.dgu.edu/wordpress/member/professor/). 
-  I received my M.S. degree in Science from the same university.
+about_content: |
+  I am currently a Ph.D. candidate in the Department of Mechanical Engineering
+  at Dongguk University, under the supervision of Professor
+  [Soo-Chul Lim](http://irobot.dgu.edu/wordpress/member/professor/).
+  I received my M.S. degree in the same department.
 
-  My research interests include robotics, AI learning, and interaction forces between robots, objects, and humans.
-  My ultimate goal is to develop robust robot behaviors and planning by integrating haptics, and to apply 
-  these advances to humanoid robotic systems that can interact in a human-like manner.
+  My research interests include **robotics**, **AI learning**, and the
+  **interaction forces between robots, objects, and humans**. My ultimate goal
+  is to develop robust robot behaviors and planning by integrating haptics, and
+  to apply these advances to humanoid robotic systems that can interact in a
+  human-like manner.
 
-  - History ![alt text](/images/myhistory.png "Trees")
+  ![My research history](/images/myhistory.png "Research history")
 
+
+# =============================================================================
+# Main Content
+# =============================================================================
 content:
+
+  # ---------------------------------------------------------------------------
+  # Publications
+  # ---------------------------------------------------------------------------
   - title: Publications
     layout: list
     content:
+
       - layout: left
         border: weak
         title: "Latency-free driving scene prediction for on-road teledriving with future-image-generation"
-        link: https://ieeexplore.ieee.org/abstract/document/10624599
+        link:      https://ieeexplore.ieee.org/abstract/document/10624599
         link_text: "IEEE Transactions on Intelligent Transportation Systems"
-        additional_links:
-          - title: "IEEE Transactions on Intelligent Transportation Systems"
-            icon: fas fa-link
-            url: https://ieeexplore.ieee.org/abstract/document/10624599
         quote: >
-          Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Kim, Yong-Jun; Ryu, Jee-Hwan; Lim, Soo-Chul;  (2024)
+          Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Kim, Yong-Jun;
+          Ryu, Jee-Hwan; Lim, Soo-Chul (2024)
         description: |
-          "IEEE Transactions on Intelligent Transportation Systems, IEEE"
-          <br>
-          
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/JyXXZQ-SfLU" frameborder="0" allowfullscreen></iframe>
-        
+          *IEEE Transactions on Intelligent Transportation Systems, IEEE*
+
+          <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/JyXXZQ-SfLU"
+                  frameborder="0" allowfullscreen></iframe>
+
       - layout: left
         border: weak
         title: "Vision-based interaction force estimation for robot grip motion without tactile/force sensor"
-        link: https://www.sciencedirect.com/science/article/pii/S095741742201538X
+        link:      https://www.sciencedirect.com/science/article/pii/S095741742201538X
         link_text: "Expert Systems with Applications"
-        additional_links:
-          - title: "Expert Systems with Applications"
-            icon: fas fa-link
-            url: https://www.sciencedirect.com/science/article/pii/S095741742201538X
         quote: >
-          <strong>Ko, Dae-Kwan</strong>; Lee, Kang-Won; Lee, Dong Han; Lim, Soo-Chul;  (2023)
+          <strong>Ko, Dae-Kwan</strong>; Lee, Kang-Won; Lee, Dong Han;
+          Lim, Soo-Chul (2023)
         description: |
-          "Expert Systems with Applications, Vol. 211, pp. 118441, Pergamon"
-          <br>
+          *Expert Systems with Applications, Vol. 211, pp. 118441, Pergamon*
 
-          <img src="/images/ESwA_force_estimation.jpg" width="560" height="315" alt="Demo Image">
+          <img src="/images/ESwA_force_estimation.jpg" width="560" alt="Force estimation demo">
 
       - layout: left
         border: weak
-        title: "Real-time video prediction using gans with guidance information for time-delayed robot teleoperation"
-        link: https://link.springer.com/article/10.1007/s12555-022-0358-3
+        title: "Real-time video prediction using GANs with guidance information for time-delayed robot teleoperation"
+        link:      https://link.springer.com/article/10.1007/s12555-022-0358-3
         link_text: "International Journal of Control, Automation and Systems"
-        additional_links:
-          - title: "International Journal of Control, Automation and Systems"
-            icon: fas fa-link
-            url: https://link.springer.com/article/10.1007/s12555-022-0358-3
         quote: >
-          Yoon, Kang-Il; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul;  (2023)
+          Yoon, Kang-Il; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul (2023)
         description: |
-          "International Journal of Control, Automation and Systems, Vol. 21(7), pp. 2387-2397, Institute of Control, Robotics and Systems and The Korean Institute of …"
-          <br>
-          
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/UgxSEOrBKFo" frameborder="0" allowfullscreen></iframe>
+          *International Journal of Control, Automation and Systems,
+          Vol. 21(7), pp. 2387–2397*
+
+          <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/UgxSEOrBKFo"
+                  frameborder="0" allowfullscreen></iframe>
 
       - layout: left
         border: weak
         title: "Toward vision-based high sampling interaction force estimation with master position and orientation for teleoperation"
-        link: https://ieeexplore.ieee.org/abstract/document/9477054
+        link:      https://ieeexplore.ieee.org/abstract/document/9477054
         link_text: "IEEE Robotics and Automation Letters"
-        additional_links:
-          - title: "IEEE Robotics and Automation Letters"
-            icon: fas fa-link
-            url: https://ieeexplore.ieee.org/abstract/document/9477054
         quote: >
-          Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul;  (2021)
+          Lee, Kang-Won; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul (2021)
         description: |
-          "IEEE Robotics and Automation Letters, Vol. 6(4), pp. 6640-6646, IEEE"
-          <br>
+          *IEEE Robotics and Automation Letters, Vol. 6(4), pp. 6640–6646, IEEE*
 
-          <img src="https://lee-kangwon.github.io/images/iros.avif" width="560" height="315" alt="Demo Image">
-      
+          <img src="https://lee-kangwon.github.io/images/iros.avif" width="560" alt="Demo image">
+
       - layout: left
         border: weak
         title: "Continuous image generation from low-update-rate images and physical sensors through a conditional GAN for robot teleoperation"
-        link: https://ieeexplore.ieee.org/abstract/document/9084292
+        link:      https://ieeexplore.ieee.org/abstract/document/9084292
         link_text: "IEEE Transactions on Industrial Informatics"
-        additional_links:
-          - title: "IEEE Transactions on Industrial Informatics"
-            icon: fas fa-link
-            url: https://ieeexplore.ieee.org/abstract/document/9084292
         quote: >
-          <strong>Ko, Dae-Kwan</strong>; Lee, Dong-Han; Lim, Soo-Chul;  (2020)
+          <strong>Ko, Dae-Kwan</strong>; Lee, Dong-Han; Lim, Soo-Chul (2020)
         description: |
-          "IEEE Transactions on Industrial Informatics, Vol. 17(3), pp. 1978-1986, IEEE"
-          <br>
+          *IEEE Transactions on Industrial Informatics, Vol. 17(3), pp. 1978–1986, IEEE*
 
-          <img src="/images/lim4-2991764-large.gif" width="560" height="315" alt="Demo Image">
+          <img src="/images/lim4-2991764-large.gif" width="560" alt="Demo image">
 
-      
       - layout: left
         border: weak
         title: "Sequential image-based attention network for inferring force estimation without haptic sensor"
-        link: https://ieeexplore.ieee.org/abstract/document/8866729
+        link:      https://ieeexplore.ieee.org/abstract/document/8866729
         link_text: "IEEE Access"
-        additional_links:
-          - title: "IEEE Access"
-            icon: fas fa-link
-            url: https://ieeexplore.ieee.org/abstract/document/8866729
         quote: >
-          Shin, Hochul; Cho, Hyeon; Kim, Dongyi; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
+          Shin, Hochul; Cho, Hyeon; Kim, Dongyi; <strong>Ko, Dae-Kwan</strong>;
+          Lim, Soo-Chul; Hwang, Wonjun (2019)
         description: |
-          "IEEE Access, Vol. 7, pp. 150237-150246, IEEE"
-          <br>
+          *IEEE Access, Vol. 7, pp. 150237–150246, IEEE*
 
-          <img src="/images/cap_220907.png" width="560" height="315" alt="Demo Image">
-      
+          <img src="/images/cap_220907.png" width="560" alt="Demo image">
+
       - layout: left
         border: weak
-        title: "Transparent and flexible mayan-pyramid-based pressure sensor using facile-transferred indium tin oxide for bimodal sensor applications"
-        link: https://www.nature.com/articles/s41598-019-50247-4
-        link_text: "Scientific reports"
-        additional_links:
-          - title: "Scientific reports"
-            icon: fas fa-link
-            url: https://www.nature.com/articles/s41598-019-50247-4
+        title: "Transparent and flexible Mayan-pyramid-based pressure sensor using facile-transferred indium tin oxide for bimodal sensor applications"
+        link:      https://www.nature.com/articles/s41598-019-50247-4
+        link_text: "Scientific Reports"
         quote: >
-          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; <strong>Ko, Dae-Kwan</strong>; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
+          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon;
+          <strong>Ko, Dae-Kwan</strong>; Park, Myung-Jin; Lim, Soo-Chul;
+          Jeon, Sanghun (2019)
         description: |
-          "Scientific reports, Vol. 9(1), pp. 14040, Nature Publishing Group UK London"
-      
+          *Scientific Reports, Vol. 9(1), pp. 14040, Nature Publishing Group UK London*
+
       - layout: left
         border: weak
-        title: "Flexible Multi-Modal Sensor for Electronic Skin"
-        link: https://ieeexplore.ieee.org/abstract/document/8792246
-        link_text: "2019 IEEE International Conference on Flexible and Printable Sensors and Systems (FLEPS)"
-        additional_links:
-          - title: "2019 IEEE International Conference on Flexible and Printable Sensors and Systems (FLEPS)"
-            icon: fas fa-link
-            url: https://ieeexplore.ieee.org/abstract/document/8792246
+        title: "Flexible multi-modal sensor for electronic skin"
+        link:      https://ieeexplore.ieee.org/abstract/document/8792246
+        link_text: "IEEE FLEPS 2019"
         quote: >
-          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon; <strong>Ko, Dae-Kwan</strong>; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun;  (2019)
+          Jung, Minhyun; Vishwanath, Sujaya Kumar; Kim, Jihoon;
+          <strong>Ko, Dae-Kwan</strong>; Park, Myung-Jin; Lim, Soo-Chul;
+          Jeon, Sanghun (2019)
         description: |
-          "2019 IEEE International Conference on Flexible and Printable Sensors and Systems (FLEPS), pp. 1-3, IEEE"
-      
+          *2019 IEEE International Conference on Flexible and Printable
+          Sensors and Systems (FLEPS), pp. 1–3, IEEE*
+
       - layout: left
         border: weak
         title: "Which LSTM type is better for interaction force estimation?"
-        link: https://ieeexplore.ieee.org/abstract/document/8932854
-        link_text: "2019 7th International Conference on Robot Intelligence Technology and Applications (RiTA)"
-        additional_links:
-          - title: "2019 7th International Conference on Robot Intelligence Technology and Applications (RiTA)"
-            icon: fas fa-link
-            url: https://ieeexplore.ieee.org/abstract/document/8932854
+        link:      https://ieeexplore.ieee.org/abstract/document/8932854
+        link_text: "IEEE RiTA 2019"
         quote: >
-          Cho, Hyeon; Kim, Hyungho; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul; Hwang, Wonjun;  (2019)
+          Cho, Hyeon; Kim, Hyungho; <strong>Ko, Dae-Kwan</strong>;
+          Lim, Soo-Chul; Hwang, Wonjun (2019)
         description: |
-          "2019 7th International Conference on Robot Intelligence Technology and Applications (RiTA), pp. 61-66, IEEE"
-      
+          *2019 7th International Conference on Robot Intelligence
+          Technology and Applications (RiTA), pp. 61–66, IEEE*
+
       - layout: left
         border: weak
         title: "Structural vibration-based classification and prediction of delamination in smart composite laminates using deep learning neural network"
-        link: https://www.sciencedirect.com/science/article/pii/S1359836818325411
+        link:      https://www.sciencedirect.com/science/article/pii/S1359836818325411
         link_text: "Composites Part B: Engineering"
-        additional_links:
-          - title: "Composites Part B: Engineering"
-            icon: fas fa-link
-            url: https://www.sciencedirect.com/science/article/pii/S1359836818325411
         quote: >
-          Khan, Asif; <strong>Ko, Dae-Kwan</strong>; Lim, Soo Chul; Kim, Heung Soo;  (2018)
+          Khan, Asif; <strong>Ko, Dae-Kwan</strong>; Lim, Soo-Chul;
+          Kim, Heung-Soo (2018)
         description: |
-          "Composites Part B: Engineering, Elsevier"
+          *Composites Part B: Engineering, Elsevier*
 
 
+  # ---------------------------------------------------------------------------
+  # Projects
+  # ---------------------------------------------------------------------------
   - title: Projects
     layout: list
     content:
+
       - layout: left
         border: weak
-        title: Vision-Language-Action Robot Demo with PI-Zero and Kinova Gen3 Lite
-        link: https://youtu.be/C7Jq_qHoXmk
-        link_text: Watch Demo on YouTube
+        title:     "Vision-Language-Action Robot Demo with PI-Zero and Kinova Gen3 Lite"
+        link:      https://youtu.be/C7Jq_qHoXmk
+        link_text: "Watch Demo on YouTube"
         additional_links:
-          - title: π0 Project Info (Physical Intelligence)
-            icon: fas fa-link
-            url: https://www.physicalintelligence.company/blog/pi0
+          - title: π0 Project (Physical Intelligence)
+            icon:  fas fa-link
+            url:   https://www.physicalintelligence.company/blog/pi0
           - title: Lab Homepage
-            icon: fas fa-home
-            url: http://irobot.dgu.edu
+            icon:  fas fa-home
+            url:   http://irobot.dgu.edu
         quote: >
           A real-world demonstration of VLA robot control using PI-Zero and Kinova Gen3 Lite.
         description: |
-          <strong>AI Info</strong><br>
-          • VLA Model: <a href="https://www.physicalintelligence.company/blog/pi0">π0</a><br>
-          • Prompt: "clean the table"<br>
-          • Training Dataset: 12 episodes (each 50s)<br>
-          • Training Time: 6 hours<br>
+          **AI Setup**
+          - VLA Model: [π0](https://www.physicalintelligence.company/blog/pi0)
+          - Prompt: "clean the table"
+          - Training Dataset: 12 episodes (each 50s)
+          - Training Time: 6 hours
 
-          <br>
+          **System Setup**
+          - Robot: KINOVA Gen3 Lite
+          - Camera: Intel RealSense D435f & L515 (color only)
+          - CPU: AMD RYZEN 5900X
+          - GPU: NVIDIA RTX 4090 24GB
+          - Control Rate: 10 Hz
 
-          <strong>System Info</strong><br>
-          • Robot: KINOVA Gen3 Lite<br>
-          • Camera: Intel RealSense D435f & L515 (color only)<br>
-          • CPU: AMD RYZEN 5900X<br>
-          • GPU: NVIDIA RTX 4090 24GB<br>
-          • Control Rate: 10 Hz<br>
+          **System Integration:** Dae-Kwan Ko (Ph.D. student)
 
-          <br>
-
-          <strong>System Integration:</strong> DaeKwan-Ko (Ph.D. student)
-
-          <br><br>
-
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/C7Jq_qHoXmk" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/C7Jq_qHoXmk"
+                  frameborder="0" allowfullscreen></iframe>
 
 
+  # ---------------------------------------------------------------------------
+  # Experience
+  # ---------------------------------------------------------------------------
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: SNUAILAB Co., Ltd.
-        sub_title: Senior Researcher (Professional Research Personnel – Alternative Military Service)
-        caption: December 2022 – February 2025 | Seoul, South Korea
-        quote: >
-          AI and 3D vision technology company specializing in advanced vision solutions for industrial and smart city applications.
-        description: |
-          - Led 3D vision and AI system core modules and coordinated with cross-functional teams.
-          - Owned and implemented industrial object detection and thermal video super-resolution solutions while collaborating with UI, QA, and backend engineers.
-          - Developed mobile vehicle license plate recognition and quality inspection systems.
-          - Managed PoC projects and secured contracts with major clients (e.g., Daifuku, HMC).
-          - Main technologies: PyTorch, Python, Open3D, OpenCV.
-          <br>
-          <img src="/images/company3.png" width="720" alt="SNUAILAB work">
-          <br>
-          <hr>
 
       - layout: right
-        title: MEERECOMPANY Co., Ltd.
-        sub_title: Senior Researcher (Professional Research Personnel – Alternative Military Service)
-        caption: February 2021 – December 2022 | Songpa-gu, Seoul, South Korea
+        border: weak
+        title:     SNUAILAB Co., Ltd.
+        sub_title: Senior Researcher (Professional Research Personnel — Alternative Military Service)
+        caption:   December 2022 – February 2025 | Seoul, South Korea
+        quote: >
+          AI and 3D vision technology company specializing in advanced vision
+          solutions for industrial and smart-city applications.
+        description: |
+          - Led core modules of 3D-vision and AI systems and coordinated with cross-functional teams.
+          - Owned and implemented industrial object detection and thermal-video super-resolution solutions, collaborating with UI, QA, and backend engineers.
+          - Developed mobile vehicle license-plate recognition and quality-inspection systems.
+          - Managed PoC projects and secured contracts with major clients (e.g., Daifuku, HMC).
+          - Main stack: PyTorch, Python, Open3D, OpenCV.
+
+          <img src="/images/company3.png" width="720" alt="SNUAILAB work">
+
+      - layout: right
+        border: weak
+        title:     MEERECOMPANY Co., Ltd.
+        sub_title: Senior Researcher (Professional Research Personnel — Alternative Military Service)
+        caption:   February 2021 – December 2022 | Songpa-gu, Seoul, South Korea
         quote: >
           A leading Korean company specializing in surgical robotics and high-precision automation.
         description: |
-          - Participated in the development of next-generation surgical robot systems with a focus on software reliability and safety.
-          - Contributed to real-time control architecture, motion planning, and dynamic model analysis for robot manipulators.
-          - Involved in RTOS-level implementation and hardware communication via EtherCAT.
-          - Conducted modeling and validation using MATLAB Simulink and Simscape frameworks.
-          - Worked under strict confidentiality as part of a nationally regulated core technology project.
-          <br>
+          - Participated in the development of next-generation surgical-robot systems with a focus on software reliability and safety.
+          - Contributed to real-time control architecture, motion planning, and dynamic-model analysis for robot manipulators.
+          - Worked on RTOS-level implementation and hardware communication via EtherCAT.
+          - Conducted modeling and validation using MATLAB Simulink and Simscape.
+          - Worked under strict confidentiality as part of a nationally regulated core-technology project.
+
           <img src="/images/company2.png" width="720" alt="MEERECOMPANY surgical robot">
           <p style="font-size: 0.85em; color: gray;"><em>
-            Publicly available image for illustrative purposes only. Actual system visuals are restricted due to confidentiality.
+            Publicly available image for illustrative purposes only.
+            Actual system visuals are restricted due to confidentiality.
           </em></p>
-          <br>
-          <hr>
 
       - layout: right
-        title: "HEALINGSOCIETY Inc. (Brand: HEALSO)"
+        border: weak
+        title:     "HEALINGSOCIETY Inc. (Brand: HEALSO)"
         sub_title: CTO (Co-founder)
-        caption: February 2013 – February 2016 | Seoul, South Korea
+        caption:   February 2013 – February 2016 | Seoul, South Korea
         quote: >
-          Healthcare startup developing ultrasonic body fat measurement devices and mobile-connected accessories.
+          Healthcare startup developing ultrasonic body-fat measurement
+          devices and mobile-connected accessories.
         description: |
           - Co-founded HEALINGSOCIETY and led all technical initiatives as CTO.
-          - Developed ultrasonic-based body fat measurement devices.
+          - Developed ultrasonic-based body-fat measurement devices.
           - Designed and integrated smartphone accessories with mobile applications.
           - Built a full-stack pipeline from product design to market launch as a startup CTO.
-          - Gained hands-on experience in hardware/software integration, user feedback loops, and commercial product iteration
-          
-          <br>
-          <img src="/images/company.png" width="720" alt="HEALINGSOCIETY business overview image">
+          - Gained hands-on experience in hardware/software integration, user-feedback loops, and commercial product iteration.
 
+          <img src="/images/company.png" width="720" alt="HEALINGSOCIETY business overview">
+
+
+  # ---------------------------------------------------------------------------
+  # Patents
+  # ---------------------------------------------------------------------------
   - title: Patents
     layout: list
     content:
+
       - layout: top-right
-        title: KR-10-2648104-0000
+        border: weak
+        title:     KR-10-2648104-0000
         sub_title: Method, Device, and Computer Program for Measuring Vehicle Step Difference
-        caption: Ko, Dae Kwan; Koo, Ja Chun; Yoon, Jin
+        caption:   "Inventors: Ko, Dae-Kwan; Koo, Ja-Chun; Yoon, Jin"
         description: |
           Registered Korean Patent
 
       - layout: top-right
-        title: KR-10-2260882-0000
+        border: weak
+        title:     KR-10-2260882-0000
         sub_title: Sequential Image-based Interaction Force Measurement Method and Device
-        caption: Hwang, Won Joon; Shin, Ho Cheol; Kim, Dong Yi; Lim, Soo Chul; Ko, Dae Kwan
+        caption:   "Inventors: Hwang, Won-Joon; Shin, Ho-Cheol; Kim, Dong-Yi; Lim, Soo-Chul; Ko, Dae-Kwan"
         description: |
           Registered Korean Patent
 
       - layout: top-right
-        title: KR-10-2313160-0000
+        border: weak
+        title:     KR-10-2313160-0000
         sub_title: High-Resolution Video Generation Method and Device Using Motion Information
-        caption: Lim, Soo Chul; Ko, Dae Kwan; Lee, Dong Han
+        caption:   "Inventors: Lim, Soo-Chul; Ko, Dae-Kwan; Lee, Dong-Han"
         description: |
           Registered Korean Patent
 
       - layout: top-right
-        title: KR-10-2094360-0000
+        border: weak
+        title:     KR-10-2094360-0000
         sub_title: Image-based Force Prediction System and Method
-        caption: Lim, Soo Chul; Hwang, Won Joon; Shin, Ho Cheol; Lee, Dong Han; Ko, Dae Kwan
+        caption:   "Inventors: Lim, Soo-Chul; Hwang, Won-Joon; Shin, Ho-Cheol; Lee, Dong-Han; Ko, Dae-Kwan"
         description: |
           Registered Korean Patent
 
       - layout: top-right
-        title: KR-10-2018-0138258 (Application)
+        border: weak
+        title:     KR-10-2018-0138258
         sub_title: Two-point Identification Inspection Device and Method
-        caption: Lim, Soo Chul; Ko, Dae Kwan
+        caption:   "Inventors: Lim, Soo-Chul; Ko, Dae-Kwan"
         description: |
           Korean Patent Application
-          
+
+
+  # ---------------------------------------------------------------------------
+  # Education
+  # ---------------------------------------------------------------------------
   - title: Education
     layout: list
     content:
+
       - layout: top-right
-        title: Dongguk University
-        sub_title: Ph.D. in Mechanical Engineering (on-going)
-        caption: March 2025 – Present
+        border: weak
+        title:     Dongguk University
+        sub_title: Ph.D. in Mechanical Engineering (in progress)
+        caption:   March 2025 – Present
         quote: >
           Department of Mechanical Engineering, Dongguk University.
         description: |
-          Ph.D. candidate under the supervision of Prof. SooChul Lim.
-          Research focus: robotics, AI, and physical AI about human-robot/object interaction forces.
+          Ph.D. candidate under the supervision of Prof. Soo-Chul Lim.
+          Research focus: robotics, AI, and physical AI on human–robot/object
+          interaction forces.
 
       - layout: top-right
-        title: Dongguk University
-        sub_title: M.S. in Mechanical Engineering (Vibration Control and Automation)
-        caption: March 2019 – February 2021
+        border: weak
+        title:     Dongguk University
+        sub_title: M.S. in Mechanical Engineering (Vibration Control & Automation)
+        caption:   March 2019 – February 2021
         quote: >
           Graduate School of Mechanical, Robotics, and Automation Engineering.
         description: |
-          Focused on vibration control, automation, and advanced mechatronics. Completed research-based thesis under Prof. SooChul Lim.
+          Focused on vibration control, automation, and advanced mechatronics.
+          Completed research-based thesis under Prof. Soo-Chul Lim.
 
       - layout: top-right
-        title: Dongguk University
+        border: weak
+        title:     Dongguk University
         sub_title: B.S. in Mechanical Engineering
-        caption: March 2012 – February 2019
+        caption:   March 2012 – February 2019
         quote: >
           School of Mechanical Engineering, Dongguk University.
         description: |
-          Completed undergraduate coursework and projects in mechanical engineering fundamentals, including robotics and automation.
+          Completed undergraduate coursework and projects in mechanical
+          engineering fundamentals, including robotics and automation.
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+# =============================================================================
 # Footer
+# =============================================================================
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: References on request
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+# =============================================================================
+# Build Settings
+# =============================================================================
 remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
-  style: compressed
+  style:    compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
+  - README.md
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
+  - LICENSE
+  - Procfile
+  - app.json
