@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dae-Kwan Ko</title>
+<meta name="description" content="Dae-Kwan Ko — Ph.D. student at Dongguk University. Research on robotics, AI learning, and human–robot interaction forces.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+:root {
+  --bg:        #fafaf7;
+  --ink:       #1a1a1a;
+  --ink-soft:  #4a4a4a;
+  --ink-mute:  #8a8a85;
+  --rule:      #e3e1d8;
+  --accent:    #7b1d1d;        /* deep burgundy */
+  --accent-soft: #b85454;
+  --highlight: #fff3c4;
+  --max:       820px;
+
+  --serif:    "Crimson Pro", "Iowan Old Style", Georgia, serif;
+  --display:  "Newsreader", "Crimson Pro", Georgia, serif;
+  --mono:     "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.55;
+  font-feature-settings: "kern", "liga", "onum";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 64px 32px 120px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color .15s ease, color .15s ease;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+strong { font-weight: 600; }
+em     { font-style: italic; color: var(--ink-soft); }
+
+/* =========== HERO =========== */
+.hero {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 36px;
+  align-items: start;
+  margin-bottom: 56px;
+  animation: fade-up .7s ease both;
+}
+
+.hero img.avatar {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  filter: grayscale(15%);
+}
+
+.hero h1 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  margin-bottom: 8px;
+}
+
+.hero .role {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+.hero .role a { color: var(--ink-soft); border-bottom: 1px dotted var(--ink-mute); }
+.hero .role a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.hero .affil {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+
+.hero .bio {
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: var(--ink);
+  margin-bottom: 18px;
+}
+.hero .bio p + p { margin-top: 0.7em; }
+
+.icon-row {
+  display: flex;
+  gap: 18px;
+  font-size: 1.15rem;
+  margin-top: 10px;
+}
+.icon-row a {
+  color: var(--ink-soft);
+  border-bottom: none;
+  transition: color .15s ease, transform .15s ease;
+}
+.icon-row a:hover { color: var(--accent); transform: translateY(-2px); }
+.icon-row .email-text {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+  border-bottom: 1px dotted var(--ink-mute);
+}
+.icon-row .email-text:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* =========== SECTIONS =========== */
+section {
+  margin-top: 56px;
+  animation: fade-up .7s ease both;
+}
+section:nth-of-type(1) { animation-delay: .1s; }
+section:nth-of-type(2) { animation-delay: .2s; }
+section:nth-of-type(3) { animation-delay: .3s; }
+section:nth-of-type(4) { animation-delay: .4s; }
+section:nth-of-type(5) { animation-delay: .5s; }
+
+h2.section-title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.55rem;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+h2.section-title .count {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-mute);
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+/* =========== PUBLICATIONS =========== */
+.pub {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 24px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.pub:last-child { border-bottom: none; }
+
+.pub .thumb {
+  width: 130px;
+  aspect-ratio: 16 / 10;
+  background: #ececea;
+  border: 1px solid var(--rule);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pub .thumb img,
+.pub .thumb iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: none;
+}
+.pub .thumb.no-media {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--ink-mute);
+  letter-spacing: 0.1em;
+}
+
+.pub .meta { min-width: 0; }
+.pub .pub-title {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.08rem;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.pub .pub-title a { color: inherit; border-bottom: 1px solid transparent; }
+.pub .pub-title a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+.pub .authors {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+.pub .authors .me { color: var(--ink); font-weight: 600; background: var(--highlight); padding: 0 2px; }
+
+.pub .venue {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+.pub .venue .year {
+  color: var(--accent);
+  font-weight: 500;
+}
+.pub .links {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.pub .links a {
+  color: var(--ink-mute);
+  border-bottom: 1px dotted var(--ink-mute);
+}
+.pub .links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* =========== PROJECTS =========== */
+.project {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.project:last-child { border-bottom: none; }
+
+.project .proj-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.project .proj-title {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+.project .proj-meta {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.project .proj-summary {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+.project .specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 32px;
+  font-size: 0.92rem;
+  background: rgba(123, 29, 29, 0.04);
+  border-left: 2px solid var(--accent);
+  padding: 14px 18px;
+  margin: 4px 0;
+}
+.project .specs h4 {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.project .specs ul { list-style: none; }
+.project .specs li {
+  padding: 2px 0;
+  color: var(--ink-soft);
+}
+.project .specs li b { color: var(--ink); font-weight: 600; }
+
+.project .video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+.project .video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.project .links {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.project .links a {
+  color: var(--ink-soft);
+  border-bottom: 1px dotted var(--ink-mute);
+}
+.project .links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* =========== EXPERIENCE =========== */
+.exp {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 24px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.exp:last-child { border-bottom: none; }
+
+.exp .when {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+}
+.exp .when .loc { display: block; margin-top: 4px; color: var(--ink-mute); opacity: .7; }
+
+.exp .where {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+}
+.exp .role-title {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+.exp .blurb {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+.exp .blurb ul { list-style: none; padding: 4px 0 0; }
+.exp .blurb li {
+  padding: 2px 0 2px 14px;
+  position: relative;
+}
+.exp .blurb li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--ink-mute);
+}
+
+/* =========== EDUCATION & PATENTS =========== */
+.edu, .patent {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 24px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.edu:last-child, .patent:last-child { border-bottom: none; }
+
+.edu .when, .patent .when {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.edu .where, .patent .where {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-bottom: 2px;
+}
+.edu .deg, .patent .deg {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+.patent .where { font-family: var(--mono); font-size: 0.88rem; color: var(--accent); font-weight: 500; }
+.patent .deg { font-family: var(--display); font-style: normal; color: var(--ink); font-size: 1rem; }
+.patent .inv { display: block; font-size: 0.85rem; color: var(--ink-mute); margin-top: 2px; font-family: var(--serif); }
+
+/* =========== FOOTER =========== */
+footer {
+  margin-top: 80px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* =========== ANIMATIONS =========== */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* =========== RESPONSIVE =========== */
+@media (max-width: 720px) {
+  main { padding: 40px 22px 80px; }
+  .hero { grid-template-columns: 1fr; gap: 20px; }
+  .hero img.avatar { width: 140px; height: 140px; }
+  .hero h1 { font-size: 2rem; }
+  .pub { grid-template-columns: 1fr; gap: 12px; }
+  .pub .thumb { width: 100%; max-width: 280px; }
+  .exp, .edu, .patent { grid-template-columns: 1fr; gap: 6px; }
+  .project .specs { grid-template-columns: 1fr; }
+}
+
+/* selection */
+::selection { background: var(--highlight); color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+
+  <!-- =================== HERO / ABOUT =================== -->
+  <header class="hero">
+    <img class="avatar" src="images/Kodg.jpg" alt="Dae-Kwan Ko">
+    <div>
+      <h1>Dae-Kwan Ko</h1>
+      <div class="role">Ph.D. Student, <a href="http://irobot.dgu.edu" target="_blank">Interactive Robotics Lab</a></div>
+      <div class="affil">Dongguk University · Mechanical Engineering</div>
+
+      <div class="bio">
+        <p>
+          I am a Ph.D. candidate in Mechanical Engineering at Dongguk University,
+          advised by Professor
+          <a href="http://irobot.dgu.edu/wordpress/member/professor/" target="_blank">Soo-Chul Lim</a>.
+          I received my M.S. in the same department.
+        </p>
+        <p>
+          My research lies at the intersection of <strong>robotics</strong>,
+          <strong>AI learning</strong>, and the <strong>interaction forces</strong>
+          between robots, objects, and humans. I am working toward humanoid
+          systems that interact with the physical world in a human-like manner
+          by integrating haptics into robust behavior and planning.
+        </p>
+      </div>
+
+      <div class="icon-row">
+        <a class="email-text" href="mailto:kodaekwan@dongguk.edu">kodaekwan@dongguk.edu</a>
+        <a href="https://scholar.google.com/citations?user=vceFZwQAAAAJ" target="_blank" title="Google Scholar"><i class="fab fa-google"></i></a>
+        <a href="https://orcid.org/0000-0002-0729-2793" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+        <a href="https://github.com/kodaekwan" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dae-kwan-ko-696b26215" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://medium.com/@daekwanko123" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- =================== PUBLICATIONS =================== -->
+  <section id="publications">
+    <h2 class="section-title">Publications <span class="count">10 PAPERS</span></h2>
+
+    <article class="pub">
+      <div class="thumb">
+        <iframe src="https://www.youtube.com/embed/JyXXZQ-SfLU" allowfullscreen></iframe>
+      </div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10624599" target="_blank">Latency-free driving scene prediction for on-road teledriving with future-image-generation</a></div>
+        <div class="authors">Lee, Kang-Won; <span class="me">Ko, Dae-Kwan</span>; Kim, Yong-Jun; Ryu, Jee-Hwan; Lim, Soo-Chul</div>
+        <div class="venue">IEEE T-ITS · <span class="year">2024</span></div>
+        <div class="links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10624599" target="_blank">paper</a>
+          <a href="https://www.youtube.com/watch?v=JyXXZQ-SfLU" target="_blank">video</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb">
+        <img src="images/ESwA_force_estimation.jpg" alt="Vision-based force estimation">
+      </div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S095741742201538X" target="_blank">Vision-based interaction force estimation for robot grip motion without tactile/force sensor</a></div>
+        <div class="authors"><span class="me">Ko, Dae-Kwan</span>; Lee, Kang-Won; Lee, Dong-Han; Lim, Soo-Chul</div>
+        <div class="venue">Expert Systems with Applications, Vol. 211 · <span class="year">2023</span></div>
+        <div class="links">
+          <a href="https://www.sciencedirect.com/science/article/pii/S095741742201538X" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb">
+        <iframe src="https://www.youtube.com/embed/UgxSEOrBKFo" allowfullscreen></iframe>
+      </div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://link.springer.com/article/10.1007/s12555-022-0358-3" target="_blank">Real-time video prediction using GANs with guidance information for time-delayed robot teleoperation</a></div>
+        <div class="authors">Yoon, Kang-Il; <span class="me">Ko, Dae-Kwan</span>; Lim, Soo-Chul</div>
+        <div class="venue">Int. J. Control, Automation and Systems, Vol. 21(7) · <span class="year">2023</span></div>
+        <div class="links">
+          <a href="https://link.springer.com/article/10.1007/s12555-022-0358-3" target="_blank">paper</a>
+          <a href="https://www.youtube.com/watch?v=UgxSEOrBKFo" target="_blank">video</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb">
+        <img src="https://lee-kangwon.github.io/images/iros.avif" alt="Vision-based interaction force estimation">
+      </div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9477054" target="_blank">Toward vision-based high sampling interaction force estimation with master position and orientation for teleoperation</a></div>
+        <div class="authors">Lee, Kang-Won; <span class="me">Ko, Dae-Kwan</span>; Lim, Soo-Chul</div>
+        <div class="venue">IEEE RA-L, Vol. 6(4) · <span class="year">2021</span></div>
+        <div class="links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/9477054" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb">
+        <img src="images/lim4-2991764-large.gif" alt="Continuous image generation">
+      </div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9084292" target="_blank">Continuous image generation from low-update-rate images and physical sensors through a conditional GAN for robot teleoperation</a></div>
+        <div class="authors"><span class="me">Ko, Dae-Kwan</span>; Lee, Dong-Han; Lim, Soo-Chul</div>
+        <div class="venue">IEEE T-II, Vol. 17(3) · <span class="year">2020</span></div>
+        <div class="links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/9084292" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb">
+        <img src="images/cap_220907.png" alt="Sequential image-based attention network">
+      </div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/8866729" target="_blank">Sequential image-based attention network for inferring force estimation without haptic sensor</a></div>
+        <div class="authors">Shin, Hochul; Cho, Hyeon; Kim, Dongyi; <span class="me">Ko, Dae-Kwan</span>; Lim, Soo-Chul; Hwang, Wonjun</div>
+        <div class="venue">IEEE Access, Vol. 7 · <span class="year">2019</span></div>
+        <div class="links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/8866729" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb no-media">SCI · 2019</div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://www.nature.com/articles/s41598-019-50247-4" target="_blank">Transparent and flexible Mayan-pyramid-based pressure sensor using facile-transferred indium tin oxide for bimodal sensor applications</a></div>
+        <div class="authors">Jung, Minhyun; Vishwanath, S.K.; Kim, Jihoon; <span class="me">Ko, Dae-Kwan</span>; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun</div>
+        <div class="venue">Scientific Reports, Vol. 9(1) · <span class="year">2019</span></div>
+        <div class="links">
+          <a href="https://www.nature.com/articles/s41598-019-50247-4" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb no-media">FLEPS · 2019</div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/8792246" target="_blank">Flexible multi-modal sensor for electronic skin</a></div>
+        <div class="authors">Jung, Minhyun; Vishwanath, S.K.; Kim, Jihoon; <span class="me">Ko, Dae-Kwan</span>; Park, Myung-Jin; Lim, Soo-Chul; Jeon, Sanghun</div>
+        <div class="venue">IEEE FLEPS · <span class="year">2019</span></div>
+        <div class="links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/8792246" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb no-media">RiTA · 2019</div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/8932854" target="_blank">Which LSTM type is better for interaction force estimation?</a></div>
+        <div class="authors">Cho, Hyeon; Kim, Hyungho; <span class="me">Ko, Dae-Kwan</span>; Lim, Soo-Chul; Hwang, Wonjun</div>
+        <div class="venue">IEEE RiTA · <span class="year">2019</span></div>
+        <div class="links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/8932854" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="thumb no-media">Composites B · 2018</div>
+      <div class="meta">
+        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S1359836818325411" target="_blank">Structural vibration-based classification and prediction of delamination in smart composite laminates using deep learning neural network</a></div>
+        <div class="authors">Khan, Asif; <span class="me">Ko, Dae-Kwan</span>; Lim, Soo-Chul; Kim, Heung-Soo</div>
+        <div class="venue">Composites Part B: Engineering · <span class="year">2018</span></div>
+        <div class="links">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1359836818325411" target="_blank">paper</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+
+  <!-- =================== PROJECTS =================== -->
+  <section id="projects">
+    <h2 class="section-title">Projects <span class="count">FEATURED</span></h2>
+
+    <article class="project">
+      <div class="proj-head">
+        <div class="proj-title">Vision-Language-Action Robot Demo</div>
+        <div class="proj-meta">π0 · Kinova Gen3 Lite</div>
+      </div>
+      <div class="proj-summary">
+        Real-world demonstration of VLA-based robot control, deploying the
+        π0 model on a Kinova Gen3 Lite arm with the prompt
+        <em>"clean the table"</em>.
+      </div>
+
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/C7Jq_qHoXmk" allowfullscreen></iframe>
+      </div>
+
+      <div class="specs">
+        <div>
+          <h4>AI Setup</h4>
+          <ul>
+            <li><b>Model</b> π0 (Physical Intelligence)</li>
+            <li><b>Prompt</b> "clean the table"</li>
+            <li><b>Dataset</b> 12 episodes (50s each)</li>
+            <li><b>Training</b> 6 hours</li>
+          </ul>
+        </div>
+        <div>
+          <h4>System</h4>
+          <ul>
+            <li><b>Robot</b> KINOVA Gen3 Lite</li>
+            <li><b>Camera</b> RealSense D435f &amp; L515</li>
+            <li><b>Compute</b> RYZEN 5900X · RTX 4090</li>
+            <li><b>Control</b> 10 Hz</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="https://youtu.be/C7Jq_qHoXmk" target="_blank">▶ watch demo</a>
+        <a href="https://www.physicalintelligence.company/blog/pi0" target="_blank">π0 details</a>
+        <a href="http://irobot.dgu.edu" target="_blank">lab page</a>
+      </div>
+    </article>
+  </section>
+
+
+  <!-- =================== EXPERIENCE =================== -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+
+    <article class="exp">
+      <div class="when">
+        Dec 2022 — Feb 2025
+        <span class="loc">Seoul, KR</span>
+      </div>
+      <div>
+        <div class="where">SNUAILAB Co., Ltd.</div>
+        <div class="role-title">Senior Researcher · Professional Research Personnel (Alternative Military Service)</div>
+        <div class="blurb">
+          AI and 3D vision technology company specializing in advanced vision
+          solutions for industrial and smart-city applications.
+          <ul>
+            <li>Led core modules of 3D-vision and AI systems and coordinated cross-functional teams.</li>
+            <li>Owned industrial object detection and thermal-video super-resolution products.</li>
+            <li>Developed mobile vehicle license-plate recognition and quality-inspection systems.</li>
+            <li>Managed PoC projects and secured contracts with Daifuku, HMC, and others.</li>
+            <li>Stack: PyTorch, Python, Open3D, OpenCV.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="exp">
+      <div class="when">
+        Feb 2021 — Dec 2022
+        <span class="loc">Seoul, KR</span>
+      </div>
+      <div>
+        <div class="where">MEERECOMPANY Co., Ltd.</div>
+        <div class="role-title">Senior Researcher · Professional Research Personnel (Alternative Military Service)</div>
+        <div class="blurb">
+          A leading Korean company specializing in surgical robotics and high-precision automation.
+          <ul>
+            <li>Worked on next-generation surgical-robot systems with focus on software reliability and safety.</li>
+            <li>Contributed to real-time control architecture, motion planning, and dynamic-model analysis for manipulators.</li>
+            <li>RTOS-level implementation and EtherCAT hardware communication.</li>
+            <li>Modeling and validation in MATLAB Simulink and Simscape.</li>
+            <li>Worked under strict confidentiality as part of a nationally regulated core-technology project.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="exp">
+      <div class="when">
+        Feb 2013 — Feb 2016
+        <span class="loc">Seoul, KR</span>
+      </div>
+      <div>
+        <div class="where">HEALINGSOCIETY Inc. <em style="color: var(--ink-mute); font-size: 0.85em;">(HEALSO)</em></div>
+        <div class="role-title">CTO · Co-founder</div>
+        <div class="blurb">
+          Healthcare startup developing ultrasonic body-fat measurement devices and mobile-connected accessories.
+          <ul>
+            <li>Co-founded the company and led all technical initiatives as CTO.</li>
+            <li>Developed ultrasonic-based body-fat measurement devices.</li>
+            <li>Designed and integrated smartphone accessories with mobile applications.</li>
+            <li>Built a full-stack pipeline from product design to market launch.</li>
+            <li>Hands-on experience in HW/SW integration and commercial product iteration.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
+
+
+  <!-- =================== EDUCATION =================== -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <article class="edu">
+      <div class="when">2025 — Present</div>
+      <div>
+        <div class="where">Dongguk University</div>
+        <div class="deg">Ph.D. in Mechanical Engineering · Advisor: Prof. Soo-Chul Lim</div>
+      </div>
+    </article>
+
+    <article class="edu">
+      <div class="when">2019 — 2021</div>
+      <div>
+        <div class="where">Dongguk University</div>
+        <div class="deg">M.S. in Mechanical Engineering — Vibration Control &amp; Automation</div>
+      </div>
+    </article>
+
+    <article class="edu">
+      <div class="when">2012 — 2019</div>
+      <div>
+        <div class="where">Dongguk University</div>
+        <div class="deg">B.S. in Mechanical Engineering</div>
+      </div>
+    </article>
+  </section>
+
+
+  <!-- =================== PATENTS =================== -->
+  <section id="patents">
+    <h2 class="section-title">Patents <span class="count">5 FILED</span></h2>
+
+    <article class="patent">
+      <div class="when">KR-10-2648104</div>
+      <div>
+        <div class="deg">Method, Device, and Computer Program for Measuring Vehicle Step Difference</div>
+        <span class="inv">Ko, Dae-Kwan; Koo, Ja-Chun; Yoon, Jin · Registered</span>
+      </div>
+    </article>
+
+    <article class="patent">
+      <div class="when">KR-10-2260882</div>
+      <div>
+        <div class="deg">Sequential Image-based Interaction Force Measurement Method and Device</div>
+        <span class="inv">Hwang, Won-Joon; Shin, Ho-Cheol; Kim, Dong-Yi; Lim, Soo-Chul; Ko, Dae-Kwan · Registered</span>
+      </div>
+    </article>
+
+    <article class="patent">
+      <div class="when">KR-10-2313160</div>
+      <div>
+        <div class="deg">High-Resolution Video Generation Method and Device Using Motion Information</div>
+        <span class="inv">Lim, Soo-Chul; Ko, Dae-Kwan; Lee, Dong-Han · Registered</span>
+      </div>
+    </article>
+
+    <article class="patent">
+      <div class="when">KR-10-2094360</div>
+      <div>
+        <div class="deg">Image-based Force Prediction System and Method</div>
+        <span class="inv">Lim, Soo-Chul; Hwang, Won-Joon; Shin, Ho-Cheol; Lee, Dong-Han; Ko, Dae-Kwan · Registered</span>
+      </div>
+    </article>
+
+    <article class="patent">
+      <div class="when">KR-10-2018-0138258</div>
+      <div>
+        <div class="deg">Two-point Identification Inspection Device and Method</div>
+        <span class="inv">Lim, Soo-Chul; Ko, Dae-Kwan · Application</span>
+      </div>
+    </article>
+  </section>
+
+
+  <footer>
+    <div>© Dae-Kwan Ko · Last updated April 2026</div>
+    <div>Built with HTML &amp; CSS · No frameworks</div>
+  </footer>
+
+</main>
+</body>
+</html>
